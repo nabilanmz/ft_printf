@@ -6,11 +6,11 @@
 /*   By: nabmd-za <nabmd-za@student.42kl.edu.my>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/13 00:34:03 by nabmd-za          #+#    #+#             */
-/*   Updated: 2022/04/13 00:34:04 by nabmd-za         ###   ########.fr       */
+/*   Updated: 2022/04/13 00:55:23 by nabmd-za         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libftprintf.h"
+#include "ft_printf.h"
 
 void	ft_putnbr(int n, int *print_length)
 {
