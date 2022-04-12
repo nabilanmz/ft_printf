@@ -6,12 +6,12 @@
 /*   By: nabmd-za <nabmd-za@student.42kl.edu.my>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/13 00:43:26 by nabmd-za          #+#    #+#             */
-/*   Updated: 2022/04/13 00:43:28 by nabmd-za         ###   ########.fr       */
+/*   Updated: 2022/04/13 00:54:02 by nabmd-za         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef LIBFTPRINTF_H
-# define LIBFTPRINTF_H
+#ifndef FT_PRINTF_H
+# define FT_PRINTF_H
 
 # include <stdlib.h>
 # include <unistd.h>
