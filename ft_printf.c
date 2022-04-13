@@ -6,7 +6,7 @@
 /*   By: nabmd-za <nabmd-za@student.42kl.edu.my>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/13 00:33:53 by nabmd-za          #+#    #+#             */
-/*   Updated: 2022/04/13 00:55:51 by nabmd-za         ###   ########.fr       */
+/*   Updated: 2022/04/13 01:06:53 by nabmd-za         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -61,43 +61,3 @@ int	ft_printf(const char *format, ...)
 	va_end(args);
 	return (print_length);
 }
-
-/** int	ft_printf(const char *fmt, ...)
-{
-	va_list	args;
-	int		retval;
-
-	retval = 0;
-	va_start(args, fmt);
-	while (*fmt != '\0')
-	{
-		if (*(fmt - 1) == '%')
-		{
-			if (*fmt == 'c')
-			{
-				ft_putchar(va_arg(args, int));
-				retval++;
-			}
-			if (*fmt == 's')
-			{
-				s = va_arg(args, char *);
-				ft_putstr(s);
-				retval += ft_strlen(s);
-			}
-			if (*fmt == 'd' || *fmt == 'i' || *fmt == 'u')
-			{
-				ft_putnbr(va_arg(args, int));
-			}
-			if (*fmt == '%')
-			{
-				write(1, "%", 1);
-				retval++;
-			}
-		}
-		if (*fmt != '%' && *(fmt - 1) != '%')
-			write(1, fmt, 1);
-		fmt++;
-	}
-	va_end(args);
-	return (retval);
-} **/

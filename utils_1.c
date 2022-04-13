@@ -6,7 +6,7 @@
 /*   By: nabmd-za <nabmd-za@student.42kl.edu.my>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/13 00:34:08 by nabmd-za          #+#    #+#             */
-/*   Updated: 2022/04/13 00:55:39 by nabmd-za         ###   ########.fr       */
+/*   Updated: 2022/04/13 01:39:44 by nabmd-za         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,6 +23,11 @@ int	ft_putstr(char *s)
 	size_t	i;
 
 	i = 0;
+	if (s == NULL)
+	{
+		write(1, "(null)", 6);
+		return (6);
+	}
 	while (s[i] != '\0')
 		i++;
 	write(1, s, sizeof(char) * i);
