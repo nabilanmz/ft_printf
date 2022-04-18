@@ -1,4 +1,4 @@
-[![jaeskim's 42Project Score](https://badge42.herokuapp.com/api/project/nabmd-za/ft_printf)](https://github.com/JaeSeoKim/badge42)
+[![nabmd-za's 42 ft_printf Score](https://badge42.vercel.app/api/v2/cl1z0vxwa002509mjst7kiqmw/project/2494614)](https://github.com/JaeSeoKim/badge42)
 
 # ft_printf
 
