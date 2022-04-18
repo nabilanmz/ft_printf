@@ -6,7 +6,7 @@
 /*   By: nabmd-za <nabmd-za@student.42kl.edu.my>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/13 00:34:08 by nabmd-za          #+#    #+#             */
-/*   Updated: 2022/04/13 01:39:44 by nabmd-za         ###   ########.fr       */
+/*   Updated: 2022/04/13 16:47:05 by nabmd-za         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ int	ft_putchar(char c)
 
 int	ft_putstr(char *s)
 {
-	size_t	i;
+	int	i;
 
 	i = 0;
 	if (s == NULL)
